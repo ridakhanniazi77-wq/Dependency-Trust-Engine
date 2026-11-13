@@ -1,0 +1,36 @@
+
+{
+  "project_name": "My First Project",
+  "packages": [
+    {
+      "name": "requests",
+      "version": "2.32.3",
+      "dependencies": ["urllib3"],
+      "advisory_points": 28,
+      "maintenance_points": 4,
+      "provenance_points": 3,
+      "license_points": 2,
+      "exposure_points": 7
+    },
+    {
+      "name": "urllib3",
+      "version": "2.2.3",
+      "dependencies": [],
+      "advisory_points": 12,
+      "maintenance_points": 2,
+      "provenance_points": 1,
+      "license_points": 0,
+      "exposure_points": 4
+    },
+    {
+      "name": "numpy",
+      "version": "2.1.1",
+      "dependencies": [],
+      "advisory_points": 2,
+      "maintenance_points": 1,
+      "provenance_points": 1,
+      "license_points": 0,
+      "exposure_points": 2
+    }
+  ]
+}

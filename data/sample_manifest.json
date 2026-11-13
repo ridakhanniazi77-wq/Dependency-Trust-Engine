@@ -1,0 +1,36 @@
+
+{
+  "project_name": "Demo Project",
+  "packages": [
+    {
+      "name": "requests",
+      "version": "2.31.0",
+      "dependencies": ["numpy"],
+      "advisory_points": 10,
+      "maintenance_points": 5,
+      "provenance_points": 0,
+      "license_points": 0,
+      "exposure_points": 5
+    },
+    {
+      "name": "flask",
+      "version": "3.0.0",
+      "dependencies": ["requests"],
+      "advisory_points": 0,
+      "maintenance_points": 5,
+      "provenance_points": 5,
+      "license_points": 0,
+      "exposure_points": 10
+    },
+    {
+      "name": "numpy",
+      "version": "1.26.0",
+      "dependencies": [],
+      "advisory_points": 20,
+      "maintenance_points": 10,
+      "provenance_points": 0,
+      "license_points": 0,
+      "exposure_points": 5
+    }
+  ]
+}
